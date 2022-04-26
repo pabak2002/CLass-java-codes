@@ -100,20 +100,20 @@
 	class Animal {
 		String clr;
 		int age;
-		//public void sit() { System.out.println("Animal sitting"); 	} 	
+		// public void sit() { System.out.println("Animal sitting"); 	} 	
 		}
 	
 	class Dog extends Animal {
 		String breed;
 		public void bark() { System.out.println("barking"); }
 		public void sit() {
-			//super.sit(); // keyword
+			// super.sit(); // keyword
 			System.out.println("dog sitting"); 	} 	}
 	
 	class Cat extends Animal{
 		public void meow() { System.out.println("meowing"); } 
 		public void sit() { System.out.println("cat sitting");
-			//super.sit(); 	
+			// super.sit(); 	
 		} 	
 		}
 
